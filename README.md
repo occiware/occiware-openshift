@@ -24,14 +24,14 @@ Install an OpenShift server : see https://install.openshift.com/
 
 Having installed and started the OCCI-Studio, and cloned (or downloaded) this repository :
 - import all of this repository's [extension/* projects](extension) in the Studio : File > Import > General > Existing projects into workspace
-- start the OpenShift Studio : find the openshift.occie extension file, right-click on it > Run as > configurations... > Eclipse Application
+- start the OpenShift Studio : find the [openshift.occie](extension/org.eclipse.cmf.occi.openshift/model/openshift.occie) extension file, right-click on it > Run as > configurations... > Eclipse Application
 - use an existing example .openshift configuration (see below), or create your own : File > New > OCCI Studio > new OpenShift configuration file
 
 
 ## Using the first example
 Having started the OpenShift Studio as above :
 - import this repository's [openshift-occi-configurations](openshift-occi-configurations) project : File > Import > General > Existing projects into workspace
-- open its smile-apps.openshift file.
+- open its [smile-apps.openshift](openshift-occi-configurations/smile-apps.openshift) file.
 
 The first example allows to configure deployment in OpenShift of a simple website application, consisting in a single "web" service whose pod contains a single "nginx" nginx container. To make it scale up, the pod's openshift.servicepod.replicas attribute needs to be set beyond 1 as needed.
 
@@ -98,7 +98,7 @@ status:
 
 ## roadmap :
 
-- implement OcservicepodConnector.occiCreate() using an OpenShift command line called in a mere Runtime.exec(), see 
+- implement [OcservicepodConnector.occiCreate()](extension/org.eclipse.cmf.occi.openshift.connector/src-gen/org/eclipse/cmf/occi/openshift/connector/OcservicepodConnector.java#L57) using an OpenShift command line called in a mere Runtime.exec()
 
 & later :
 - OR develop YAML conf generator using .mtl template
