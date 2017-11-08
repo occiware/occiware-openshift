@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<occi:Extension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:occi="http://schemas.ogf.org/occi/core/ecore" name="openshift" scheme="http://occiware.org/openshift#">
+  <import href="http://schemas.ogf.org/occi/core#/"/>
+  <import href="http://schemas.ogf.org/occi/platform#/"/>
+  <kinds name="OCNamespace" scheme="http://occiware.org/openshift#">
+    <parent href="http://schemas.ogf.org/occi/platform#//@kinds[term='application']"/>
+  </kinds>
+  <kinds name="OCServicePod" scheme="http://occiware.org/openshift#">
+    <attributes name="openshift.servicepod.name" mutable="true" description="Name of both the OpenShift Pod (its DeploymentConfig actually) and its facade service">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <attributes name="openshift.servicepod.replicas" mutable="true" description="Number of pod replicas that OpenShift should instantiate">
+      <type xsi:type="occi:NumericType" href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <parent href="http://schemas.ogf.org/occi/platform#//@kinds[term='component']"/>
+  </kinds>
+  <kinds name="OCContainer" scheme="http://occiware.org/openshift#">
+    <attributes name="openshift.container.name" mutable="true" description="name of the OpenShift container">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <attributes name="openshift.container.image" mutable="true" description="Docker image of the OpenShift container">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <attributes name="openshift.container.portMappings" mutable="true" description="mappings (targetPort) of service ports (ports.port) to its pod's containers' ports (ports.containerPort), in the format :&#xA;servicePort1-containerPort1,servicePort2-containerPort2&#xA;Example : 8000-80,8443-443">
+      <type xsi:type="occi:StringType" href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <parent href="http://schemas.ogf.org/occi/platform#//@kinds[term='component']"/>
+  </kinds>
+  <kinds name="OCServicePodToContainer" scheme="http://occiware.org/openshift#" source="//@kinds[term='ocservicepod']" target="//@kinds[term='occontainer']">
+    <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='link']"/>
+  </kinds>
+</occi:Extension>

@@ -1,0 +1,63 @@
+h1. OCCI openshift extension
+
+
+
+| *Name* | openshift |
+| *Scheme* | http://occiware.org/openshift# |
+
+
+Imported OCCI Extensions:
+
+| *Name* | *Scheme* |
+| <a href="core.textile">core</a> | http://schemas.ogf.org/occi/core# |
+| <a href="platform.textile">platform</a> | http://schemas.ogf.org/occi/platform# |
+
+h1. Kinds
+
+h2. Kind ocnamespace
+
+| *Term* | ocnamespace |
+| *Scheme* | http://occiware.org/openshift# |
+| *Title* |  |
+| *Parent* | <a href="platform.textile#kind-application">http://schemas.ogf.org/occi/platform#application</a> |
+
+h2. Kind ocservicepod
+
+| *Term* | ocservicepod |
+| *Scheme* | http://occiware.org/openshift# |
+| *Title* |  |
+| *Parent* | <a href="platform.textile#kind-component">http://schemas.ogf.org/occi/platform#component</a> |
+
+Attributes of ocservicepod are:
+
+| *Attribute* | *Type* | *Required* | *Mutable* | *Default* | *Description* |
+| openshift.servicepod.name | <a href="core.textile#-string">String</a> | false | true |  | Name of both the OpenShift Pod (its DeploymentConfig actually) and its facade service |
+| openshift.servicepod.replicas | <a href="core.textile#-integer">Integer</a> | false | true |  | Number of pod replicas that OpenShift should instantiate |
+
+
+h2. Kind occontainer
+
+| *Term* | occontainer |
+| *Scheme* | http://occiware.org/openshift# |
+| *Title* |  |
+| *Parent* | <a href="platform.textile#kind-component">http://schemas.ogf.org/occi/platform#component</a> |
+
+Attributes of occontainer are:
+
+| *Attribute* | *Type* | *Required* | *Mutable* | *Default* | *Description* |
+| openshift.container.name | <a href="core.textile#-string">String</a> | false | true |  | name of the OpenShift container |
+| openshift.container.image | <a href="core.textile#-string">String</a> | false | true |  | Docker image of the OpenShift container |
+| openshift.container.portMappings | <a href="core.textile#-string">String</a> | false | true |  | mappings (targetPort) of service ports (ports.port) to its pod's containers' ports (ports.containerPort), in the format :
+servicePort1-containerPort1,servicePort2-containerPort2
+Example : 8000-80,8443-443 |
+
+
+h2. Kind ocservicepodtocontainer
+
+| *Term* | ocservicepodtocontainer |
+| *Scheme* | http://occiware.org/openshift# |
+| *Title* |  |
+| *Parent* | <a href="core.textile#kind-link">http://schemas.ogf.org/occi/core#link</a> |
+
+
+Generated at Wed Nov 08 18:55:23 CET 2017 from platform:/resource/org.eclipse.cmf.occi.openshift/model/openshift.occie by org.eclipse.cmf.occi.core.gen.textile

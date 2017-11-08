@@ -1,0 +1,134 @@
+\section{OCCI openshift extension}
+\begin{center}
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & openshift \\
+  \hline  
+  \textbf{Scheme} & http://occiware.org/openshift\# \\
+  \hline
+  \textbf{Specification} &  \\
+  \hline
+\end{tabular}
+\end{center}
+
+\subsection{Imported OCCI extensions}
+
+\begin{center} 
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & core \\
+  \hline  
+  \textbf{Scheme} & http://schemas.ogf.org/occi/core\# \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{center} 
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & platform \\
+  \hline  
+  \textbf{Scheme} & http://schemas.ogf.org/occi/platform\# \\
+  \hline
+\end{tabular}
+\end{center}
+
+
+\subsection{Kinds}
+\subsubsection{\texttt{OCNamespace} kind}
+\begin{center}
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & OCNamespace \\
+  \hline  
+  \textbf{Scheme} & http://occiware.org/openshift\# \\
+  \hline
+  \textbf{Title} &  \\
+  \hline
+  \textbf{Parent} & Application (http://schemas.ogf.org/occi/platform\#) \\
+  \hline
+\end{tabular}
+\end{center}
+
+
+
+\subsubsection{\texttt{OCServicePod} kind}
+\begin{center}
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & OCServicePod \\
+  \hline  
+  \textbf{Scheme} & http://occiware.org/openshift\# \\
+  \hline
+  \textbf{Title} &  \\
+  \hline
+  \textbf{Parent} & Component (http://schemas.ogf.org/occi/platform\#) \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{itemize}
+\item \textbf{\texttt{OCServicePod} attributes}
+
+\begin{tabularx}{\textwidth}{|l|l|p{1.4cm}|p{1.3cm}|l|X|}
+  \hline
+  \textbf{Attribute} & \textbf{Type} & \textbf{Required} & \textbf{Mutable} & \textbf{Default} & \textbf{Description} \\
+  \hline  
+  openshift.servicepod.name & String & false & true &  & Name of both the OpenShift Pod (its DeploymentConfig actually) and its facade service \\
+  \hline
+  openshift.servicepod.replicas & Integer & false & true &  & Number of pod replicas that OpenShift should instantiate \\
+  \hline
+\end{tabularx}
+\end{itemize}
+
+
+
+\subsubsection{\texttt{OCContainer} kind}
+\begin{center}
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & OCContainer \\
+  \hline  
+  \textbf{Scheme} & http://occiware.org/openshift\# \\
+  \hline
+  \textbf{Title} &  \\
+  \hline
+  \textbf{Parent} & Component (http://schemas.ogf.org/occi/platform\#) \\
+  \hline
+\end{tabular}
+\end{center}
+\begin{itemize}
+\item \textbf{\texttt{OCContainer} attributes}
+
+\begin{tabularx}{\textwidth}{|l|l|p{1.4cm}|p{1.3cm}|l|X|}
+  \hline
+  \textbf{Attribute} & \textbf{Type} & \textbf{Required} & \textbf{Mutable} & \textbf{Default} & \textbf{Description} \\
+  \hline  
+  openshift.container.name & String & false & true &  & name of the OpenShift container \\
+  \hline
+  openshift.container.image & String & false & true &  & Docker image of the OpenShift container \\
+  \hline
+  openshift.container.portMappings & String & false & true &  & mappings (targetPort) of service ports (ports.port) to its pod's containers' ports (ports.containerPort), in the format :
+servicePort1-containerPort1,servicePort2-containerPort2
+Example : 8000-80,8443-443 \\
+  \hline
+\end{tabularx}
+\end{itemize}
+
+
+
+\subsubsection{\texttt{OCServicePodToContainer} kind}
+\begin{center}
+\begin{tabular}{|l|l|}
+  \hline
+  \textbf{Name} & OCServicePodToContainer \\
+  \hline  
+  \textbf{Scheme} & http://occiware.org/openshift\# \\
+  \hline
+  \textbf{Title} &  \\
+  \hline
+  \textbf{Parent} & Link (http://schemas.ogf.org/occi/core\#) \\
+  \hline
+\end{tabular}
+\end{center}
+
+
+

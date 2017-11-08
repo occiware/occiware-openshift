@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="openshift" version="10.0.0.201505222000">
+  <ownedViewpoints name="OpenshiftConfiguration" label="org.eclipse.cmf.occi.openshift Configuration">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="OpenshiftConfiguration Diagram" domainClass="Configuration">
+	  <metamodel href="http://occiware.org/openshift/ecore#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="OCNamespaceLinksEdge" sourceMapping="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCNamespaceContainer']" targetMapping="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']" targetFinderExpression="feature:links">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="OCServicePodLinksEdge" sourceMapping="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodContainer']" targetMapping="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']" targetFinderExpression="feature:links">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="OCContainerLinksEdge" sourceMapping="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCContainerContainer']" targetMapping="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']" targetFinderExpression="feature:links">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="OCServicePodToContainerTargetEdge" sourceMapping="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']" targetMapping="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCNamespaceContainer'] //@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodContainer'] //@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCContainerContainer']" targetFinderExpression="feature:target">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="OCServicePodToContainerEdge" sourceMapping="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCNamespaceContainer'] //@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodContainer'] //@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCContainerContainer']" targetMapping=" //@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCNamespaceContainer']   //@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodContainer']   //@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCContainerContainer'] " domainClass="Ocservicepodtocontainer" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="OCNamespaceContainer" preconditionExpression="[self.oclIsTypeOf(Ocnamespace)/]"
+            labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditEntityTitle']"
+			semanticCandidatesExpression="feature:resources" 
+			domainClass="Ocnamespace">
+<subContainerMappings name="SubOCNamespaceContainer" semanticCandidatesExpression="[self/]" domainClass="Ocnamespace" childrenPresentation="List">
+          <subNodeMappings name="OCNamespaceId"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCNamespaceId']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocnamespace">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['id = ' + self.id.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCNamespaceTitle"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCNamespaceTitle']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocnamespace">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['title = ' + self.title.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCNamespaceLocation"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCNamespaceLocation']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocnamespace">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['location = ' + self.location.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCNamespaceSummary"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCNamespaceSummary']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocnamespace">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['summary = ' + self.summary.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCNamespaceOcciAppName"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCNamespaceOcciAppName']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocnamespace">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['occiAppName = ' + self.occiAppName.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCNamespaceOcciAppContext"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCNamespaceOcciAppContext']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocnamespace">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['occiAppContext = ' + self.occiAppContext.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCNamespaceOcciAppUrl"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCNamespaceOcciAppUrl']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocnamespace">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['occiAppUrl = ' + self.occiAppUrl.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCNamespaceOcciAppState"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCNamespaceOcciAppState']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocnamespace">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['occiAppState = ' + self.occiAppState.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCNamespaceOcciAppStateMessage"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCNamespaceOcciAppStateMessage']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocnamespace">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['occiAppStateMessage = ' + self.occiAppStateMessage.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+			<style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="[self.kind.scheme+self.kind.term/]">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+</subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" labelExpression="[self.title + ': OCNamespace'/]" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style> 
+
+        </containerMappings>
+        <containerMappings name="OCServicePodContainer" preconditionExpression="[self.oclIsTypeOf(Ocservicepod)/]"
+            labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditEntityTitle']"
+			semanticCandidatesExpression="feature:resources" 
+			domainClass="Ocservicepod">
+<subContainerMappings name="SubOCServicePodContainer" semanticCandidatesExpression="[self/]" domainClass="Ocservicepod" childrenPresentation="List">
+          <subNodeMappings name="OCServicePodId"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodId']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepod">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['id = ' + self.id.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCServicePodTitle"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodTitle']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepod">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['title = ' + self.title.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCServicePodLocation"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodLocation']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepod">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['location = ' + self.location.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCServicePodSummary"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodSummary']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepod">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['summary = ' + self.summary.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCServicePodOcciComponentState"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodOcciComponentState']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepod">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['occiComponentState = ' + self.occiComponentState.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCServicePodOcciComponentStateMessage"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodOcciComponentStateMessage']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepod">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['occiComponentStateMessage = ' + self.occiComponentStateMessage.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCServicePodOpenshiftServicepodName"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodOpenshiftServicepodName']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepod">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['openshiftServicepodName = ' + self.openshiftServicepodName.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCServicePodOpenshiftServicepodReplicas"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodOpenshiftServicepodReplicas']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepod">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['openshiftServicepodReplicas = ' + self.openshiftServicepodReplicas.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+			<style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="[self.kind.scheme+self.kind.term/]">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+</subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" labelExpression="[self.title + ': OCServicePod'/]" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style> 
+
+        </containerMappings>
+        <containerMappings name="OCContainerContainer" preconditionExpression="[self.oclIsTypeOf(Occontainer)/]"
+            labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditEntityTitle']"
+			semanticCandidatesExpression="feature:resources" 
+			domainClass="Occontainer">
+<subContainerMappings name="SubOCContainerContainer" semanticCandidatesExpression="[self/]" domainClass="Occontainer" childrenPresentation="List">
+          <subNodeMappings name="OCContainerId"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCContainerId']"
+                semanticCandidatesExpression="[self/]" domainClass="Occontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['id = ' + self.id.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCContainerTitle"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCContainerTitle']"
+                semanticCandidatesExpression="[self/]" domainClass="Occontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['title = ' + self.title.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCContainerLocation"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCContainerLocation']"
+                semanticCandidatesExpression="[self/]" domainClass="Occontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['location = ' + self.location.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCContainerSummary"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCContainerSummary']"
+                semanticCandidatesExpression="[self/]" domainClass="Occontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['summary = ' + self.summary.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCContainerOcciComponentState"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCContainerOcciComponentState']"
+                semanticCandidatesExpression="[self/]" domainClass="Occontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['occiComponentState = ' + self.occiComponentState.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCContainerOcciComponentStateMessage"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCContainerOcciComponentStateMessage']"
+                semanticCandidatesExpression="[self/]" domainClass="Occontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['occiComponentStateMessage = ' + self.occiComponentStateMessage.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCContainerOpenshiftContainerName"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCContainerOpenshiftContainerName']"
+                semanticCandidatesExpression="[self/]" domainClass="Occontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['openshiftContainerName = ' + self.openshiftContainerName.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCContainerOpenshiftContainerImage"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCContainerOpenshiftContainerImage']"
+                semanticCandidatesExpression="[self/]" domainClass="Occontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['openshiftContainerImage = ' + self.openshiftContainerImage.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCContainerOpenshiftContainerPortMappings"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCContainerOpenshiftContainerPortMappings']"
+                semanticCandidatesExpression="[self/]" domainClass="Occontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['openshiftContainerPortMappings = ' + self.openshiftContainerPortMappings.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+			<style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="[self.kind.scheme+self.kind.term/]">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+</subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" labelExpression="[self.title + ': OCContainer'/]" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style> 
+
+        </containerMappings>
+        <containerMappings name="OCServicePodToContainerContainer"
+            labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditEntityTitle']"
+			semanticCandidatesExpression="[resources.links->filter(Ocservicepodtocontainer)/]" 
+			domainClass="Ocservicepodtocontainer">
+<subContainerMappings name="SubOCServicePodToContainerContainer" semanticCandidatesExpression="[self/]" domainClass="Ocservicepodtocontainer" childrenPresentation="List">
+          <subNodeMappings name="OCServicePodToContainerId"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodToContainerId']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepodtocontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['id = ' + self.id.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCServicePodToContainerTitle"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodToContainerTitle']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepodtocontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['title = ' + self.title.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="OCServicePodToContainerLocation"
+                labelDirectEdit="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@toolSections.3/@ownedTools[name='EditOCServicePodToContainerLocation']"
+                semanticCandidatesExpression="[self/]" domainClass="Ocservicepodtocontainer">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['location = ' + self.location.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+			<style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="[self.kind.scheme+self.kind.term/]">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+</subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" labelExpression="[self.title + ': OCServicePodToContainer'/]" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style> 
+
+        </containerMappings>
+        <toolSections name="Openshift resources">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" 
+			name="Create OCNamespace"
+			containerMappings="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCNamespaceContainer']"> 
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Ocnamespace" referenceName="resources">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="['oCNamespace' + container.oclAsType(Configuration).resources->size().toString()/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" 
+			name="Create OCServicePod"
+			containerMappings="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodContainer']"> 
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Ocservicepod" referenceName="resources">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="['oCServicePod' + container.oclAsType(Configuration).resources->size().toString()/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" 
+			name="Create OCContainer"
+			containerMappings="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCContainerContainer']"> 
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Occontainer" referenceName="resources">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="['oCContainer' + container.oclAsType(Configuration).resources->size().toString()/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+</toolSections>
+ <toolSections name="Openshift links">
+          <ownedTools xsi:type="tool:EdgeCreationDescription"
+			name="Create OCServicePodToContainer"
+			edgeMappings="//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@edgeMappings[name='OCServicePodToContainerEdge']"> 
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Ocservicepodtocontainer" referenceName="links" variableName="link">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+   </toolSections>   
+ <toolSections name="Openshift mixins">
+   </toolSections>    
+        <toolSections name="Tools">
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditEntityTitle" inputLabelExpression="feature:title">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCNamespaceId" inputLabelExpression="feature:id">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCNamespaceTitle" inputLabelExpression="feature:title">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCNamespaceLocation" inputLabelExpression="feature:location">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="location" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCNamespaceSummary" inputLabelExpression="feature:summary">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="summary" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCNamespaceOcciAppName" inputLabelExpression="feature:occiAppName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="occiAppName" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCNamespaceOcciAppContext" inputLabelExpression="feature:occiAppContext">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="occiAppContext" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCNamespaceOcciAppUrl" inputLabelExpression="feature:occiAppUrl">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="occiAppUrl" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCNamespaceOcciAppState" inputLabelExpression="feature:occiAppState">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="occiAppState" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCNamespaceOcciAppStateMessage" inputLabelExpression="feature:occiAppStateMessage">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="occiAppStateMessage" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodId" inputLabelExpression="feature:id">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodTitle" inputLabelExpression="feature:title">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodLocation" inputLabelExpression="feature:location">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="location" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodSummary" inputLabelExpression="feature:summary">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="summary" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodOcciComponentState" inputLabelExpression="feature:occiComponentState">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="occiComponentState" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodOcciComponentStateMessage" inputLabelExpression="feature:occiComponentStateMessage">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="occiComponentStateMessage" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodOpenshiftServicepodName" inputLabelExpression="feature:openshiftServicepodName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="openshiftServicepodName" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodOpenshiftServicepodReplicas" inputLabelExpression="feature:openshiftServicepodReplicas">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="openshiftServicepodReplicas" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCContainerId" inputLabelExpression="feature:id">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCContainerTitle" inputLabelExpression="feature:title">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCContainerLocation" inputLabelExpression="feature:location">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="location" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCContainerSummary" inputLabelExpression="feature:summary">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="summary" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCContainerOcciComponentState" inputLabelExpression="feature:occiComponentState">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="occiComponentState" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCContainerOcciComponentStateMessage" inputLabelExpression="feature:occiComponentStateMessage">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="occiComponentStateMessage" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCContainerOpenshiftContainerName" inputLabelExpression="feature:openshiftContainerName">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="openshiftContainerName" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCContainerOpenshiftContainerImage" inputLabelExpression="feature:openshiftContainerImage">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="openshiftContainerImage" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCContainerOpenshiftContainerPortMappings" inputLabelExpression="feature:openshiftContainerPortMappings">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="openshiftContainerPortMappings" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodToContainerId" inputLabelExpression="feature:id">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodToContainerTitle" inputLabelExpression="feature:title">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditOCServicePodToContainerLocation" inputLabelExpression="feature:location">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="location" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:PopupMenu" name="CRUD operations" precondition="[self.oclIsKindOf(Entity)/]">
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="Create">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Entity).occiCreate()/]"/>
+              </initialOperation>
+            </menuItemDescription>
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="Retrieve">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Entity).occiRetrieve()/]"/>
+              </initialOperation>
+            </menuItemDescription>
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="Update">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Entity).occiUpdate()/]"/>
+              </initialOperation>
+            </menuItemDescription>
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="Delete">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Entity).occiDelete()/]"/>
+              </initialOperation>
+            </menuItemDescription>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+<!--
+    <ownedJavaExtensions qualifiedClassName="org.occiware.clouddesigner.occi.design.services.DesignServices"/>
+-->
+  </ownedViewpoints>
+</description:Group>

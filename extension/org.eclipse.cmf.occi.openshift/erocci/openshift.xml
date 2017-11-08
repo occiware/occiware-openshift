@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated at Wed Nov 08 18:31:57 CET 2017 from platform:/resource/org.eclipse.cmf.occi.openshift/model/openshift.occie by org.eclipse.cmf.occi.core.gen.xml -->
+<occi:extension xmlns:occi="http://schemas.ogf.org/occi"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.ogf.org/occi occi.xsd"
+    name="openshift"
+    scheme="http://occiware.org/openshift#"
+    version="1"
+    status="stable">
+
+  <!-- Kind:  -->
+  <occi:kind term="ocnamespace" scheme="http://occiware.org/openshift#" title="">
+    <occi:parent term="application" scheme="http://schemas.ogf.org/occi/platform#"/>
+  </occi:kind>
+
+  <!-- Kind:  -->
+  <occi:kind term="ocservicepod" scheme="http://occiware.org/openshift#" title="">
+    <occi:parent term="component" scheme="http://schemas.ogf.org/occi/platform#"/>
+    <occi:attribute name="openshift.servicepod.name" use="optional" type="xs:string" title="Name of both the OpenShift Pod (its DeploymentConfig actually) and its facade service"/>
+    <occi:attribute name="openshift.servicepod.replicas" use="optional" type="xs:integer" title="Number of pod replicas that OpenShift should instantiate"/>
+  </occi:kind>
+
+  <!-- Kind:  -->
+  <occi:kind term="occontainer" scheme="http://occiware.org/openshift#" title="">
+    <occi:parent term="component" scheme="http://schemas.ogf.org/occi/platform#"/>
+    <occi:attribute name="openshift.container.name" use="optional" type="xs:string" title="name of the OpenShift container"/>
+    <occi:attribute name="openshift.container.image" use="optional" type="xs:string" title="Docker image of the OpenShift container"/>
+    <occi:attribute name="openshift.container.portMappings" use="optional" type="xs:string" title="mappings (targetPort) of service ports (ports.port) to its pod&apos;s containers&apos; ports (ports.containerPort), in the format :
+    servicePort1-containerPort1,servicePort2-containerPort2
+    Example : 8000-80,8443-443"/>
+  </occi:kind>
+
+  <!-- Kind:  -->
+  <occi:kind term="ocservicepodtocontainer" scheme="http://occiware.org/openshift#" title="">
+    <occi:parent term="link" scheme="http://schemas.ogf.org/occi/core#"/>
+  </occi:kind>
+
+</occi:extension>
