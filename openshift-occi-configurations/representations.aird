@@ -177,68 +177,68 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_Na7PccSrEee8Yeln4eJWUg" fontName="Ubuntu" fontHeight="10"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Na7PcsSrEee8Yeln4eJWUg" x="115" y="340" width="368" height="226"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_RlVaYMSrEee8Yeln4eJWUg" type="2002" element="_RklzgMSrEee8Yeln4eJWUg">
-          <children xmi:type="notation:Node" xmi:id="_RlWBcsSrEee8Yeln4eJWUg" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_RlWBc8SrEee8Yeln4eJWUg" type="7001">
-            <children xmi:type="notation:Node" xmi:id="_RlWogMSrEee8Yeln4eJWUg" type="3009" element="_Rku9cMSrEee8Yeln4eJWUg">
-              <children xmi:type="notation:Node" xmi:id="_RlWog8SrEee8Yeln4eJWUg" type="5004"/>
-              <children xmi:type="notation:Node" xmi:id="_RlWohMSrEee8Yeln4eJWUg" type="7003">
-                <children xmi:type="notation:Node" xmi:id="_RlWoh8SrEee8Yeln4eJWUg" type="3010" element="_Rk4HYMSrEee8Yeln4eJWUg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_RlWoiMSrEee8Yeln4eJWUg" fontName="Ubuntu" fontHeight="10"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_RlWoicSrEee8Yeln4eJWUg"/>
+        <children xmi:type="notation:Node" xmi:id="_AuIwEMhWEeeeNNietdEZuQ" type="2002" element="_AtkvYMhWEeeeNNietdEZuQ">
+          <children xmi:type="notation:Node" xmi:id="_AuPdwMhWEeeeNNietdEZuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_AuQr4MhWEeeeNNietdEZuQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_AuR6AMhWEeeeNNietdEZuQ" type="3009" element="_AtnLoMhWEeeeNNietdEZuQ">
+              <children xmi:type="notation:Node" xmi:id="_AuShEMhWEeeeNNietdEZuQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_AuTIIMhWEeeeNNietdEZuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_AuTvMMhWEeeeNNietdEZuQ" type="3010" element="_AtoZwMhWEeeeNNietdEZuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_AuTvMchWEeeeNNietdEZuQ" fontName=".SF NS Text" fontHeight="10"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_AuTvMshWEeeeNNietdEZuQ"/>
                 </children>
-                <children xmi:type="notation:Node" xmi:id="_RlXPkMSrEee8Yeln4eJWUg" type="3010" element="_Rk9m8cSrEee8Yeln4eJWUg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_RlXPkcSrEee8Yeln4eJWUg" fontName="Ubuntu" fontHeight="10"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_RlXPksSrEee8Yeln4eJWUg"/>
+                <children xmi:type="notation:Node" xmi:id="_AuUWQMhWEeeeNNietdEZuQ" type="3010" element="_AtqO8chWEeeeNNietdEZuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_AuUWQchWEeeeNNietdEZuQ" fontName=".SF NS Text" fontHeight="10"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_AuUWQshWEeeeNNietdEZuQ"/>
                 </children>
-                <children xmi:type="notation:Node" xmi:id="_RlXPk8SrEee8Yeln4eJWUg" type="3010" element="_RlCfccSrEee8Yeln4eJWUg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_RlXPlMSrEee8Yeln4eJWUg" fontName="Ubuntu" fontHeight="10"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_RlXPlcSrEee8Yeln4eJWUg"/>
+                <children xmi:type="notation:Node" xmi:id="_AuU9UMhWEeeeNNietdEZuQ" type="3010" element="_AtrdEchWEeeeNNietdEZuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_AuU9UchWEeeeNNietdEZuQ" fontName=".SF NS Text" fontHeight="10"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_AuU9UshWEeeeNNietdEZuQ"/>
                 </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_RlWohcSrEee8Yeln4eJWUg"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_RlWohsSrEee8Yeln4eJWUg"/>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_AuTIIchWEeeeNNietdEZuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_AuTIIshWEeeeNNietdEZuQ"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_RlWogcSrEee8Yeln4eJWUg" fontName="Ubuntu" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RlWogsSrEee8Yeln4eJWUg" x="30" y="19"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_AuR6AchWEeeeNNietdEZuQ" fontName=".SF NS Text" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AuR6AshWEeeeNNietdEZuQ" x="31" y="30"/>
             </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_RlWBdMSrEee8Yeln4eJWUg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_RlWBdcSrEee8Yeln4eJWUg"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_AuQr4chWEeeeNNietdEZuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_AuQr4shWEeeeNNietdEZuQ"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_RlWBcMSrEee8Yeln4eJWUg" fontName="Ubuntu" fontHeight="10"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RlWBccSrEee8Yeln4eJWUg" x="530" y="270" height="112"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_AuIwEchWEeeeNNietdEZuQ" fontName=".SF NS Text" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AuIwEshWEeeeNNietdEZuQ" x="621" y="324"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_A7FqosSrEee8Yeln4eJWUg"/>
-        <edges xmi:type="notation:Edge" xmi:id="_RlbhAMSrEee8Yeln4eJWUg" type="4001" element="_RlMQcMSrEee8Yeln4eJWUg" source="_Na7PcMSrEee8Yeln4eJWUg" target="_RlVaYMSrEee8Yeln4eJWUg">
-          <children xmi:type="notation:Node" xmi:id="_RlcIEMSrEee8Yeln4eJWUg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RlcIEcSrEee8Yeln4eJWUg" x="10" y="-11"/>
+        <edges xmi:type="notation:Edge" xmi:id="_AuWygMhWEeeeNNietdEZuQ" type="4001" element="_AtsrMMhWEeeeNNietdEZuQ" source="_Ld_BoMSrEee8Yeln4eJWUg" target="_AuIwEMhWEeeeNNietdEZuQ">
+          <children xmi:type="notation:Node" xmi:id="_AuYnsMhWEeeeNNietdEZuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AuYnschWEeeeNNietdEZuQ" x="8" y="1"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_RldWMMSrEee8Yeln4eJWUg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RldWMcSrEee8Yeln4eJWUg" x="-18" y="5"/>
+          <children xmi:type="notation:Node" xmi:id="_AuZOwMhWEeeeNNietdEZuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AuZOwchWEeeeNNietdEZuQ" x="-16" y="-1"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Rld9QMSrEee8Yeln4eJWUg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rld9QcSrEee8Yeln4eJWUg" x="-24" y="6"/>
+          <children xmi:type="notation:Node" xmi:id="_AuZ10MhWEeeeNNietdEZuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AuZ10chWEeeeNNietdEZuQ" x="-11" y="-1"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_RlbhAcSrEee8Yeln4eJWUg"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_RlbhAsSrEee8Yeln4eJWUg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RlbhA8SrEee8Yeln4eJWUg" points="[0, 0, -164, 46]$[164, -46, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RlfLYMSrEee8Yeln4eJWUg" id="(1.0,0.38392857142857145)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RlfLYcSrEee8Yeln4eJWUg" id="(0.30013642564802184,1.0)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_AuWygchWEeeeNNietdEZuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_AuWygshWEeeeNNietdEZuQ" fontName=".SF NS Text" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AuWyg8hWEeeeNNietdEZuQ" points="[9, 215, -5, -112]$[9, 299, -5, -28]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AueHQMhWEeeeNNietdEZuQ" id="(0.5017921146953405,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AueHQchWEeeeNNietdEZuQ" id="(0.25761772853185594,0.23140495867768596)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_RlfycMSrEee8Yeln4eJWUg" type="4001" element="_RlQh4MSrEee8Yeln4eJWUg" source="_RlVaYMSrEee8Yeln4eJWUg" target="_Ld_BoMSrEee8Yeln4eJWUg">
-          <children xmi:type="notation:Node" xmi:id="_RlgZgMSrEee8Yeln4eJWUg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RlgZgcSrEee8Yeln4eJWUg" x="-1" y="-3"/>
+        <edges xmi:type="notation:Edge" xmi:id="_AueHQshWEeeeNNietdEZuQ" type="4001" element="_AtugYMhWEeeeNNietdEZuQ" source="_AuIwEMhWEeeeNNietdEZuQ" target="_Na7PcMSrEee8Yeln4eJWUg">
+          <children xmi:type="notation:Node" xmi:id="_AueuUMhWEeeeNNietdEZuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AueuUchWEeeeNNietdEZuQ" x="-35" y="10"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_RlgZgsSrEee8Yeln4eJWUg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RlgZg8SrEee8Yeln4eJWUg" x="12" y="12"/>
+          <children xmi:type="notation:Node" xmi:id="_AueuUshWEeeeNNietdEZuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AueuU8hWEeeeNNietdEZuQ" x="-8" y="-5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_RlgZhMSrEee8Yeln4eJWUg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RlgZhcSrEee8Yeln4eJWUg" x="10" y="9"/>
+          <children xmi:type="notation:Node" xmi:id="_AueuVMhWEeeeNNietdEZuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AueuVchWEeeeNNietdEZuQ" x="-11" y="-9"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_RlfyccSrEee8Yeln4eJWUg"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_RlfycsSrEee8Yeln4eJWUg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Rlfyc8SrEee8Yeln4eJWUg" points="[-2, -4, 19, 33]$[-15, -34, 6, 3]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RlgZhsSrEee8Yeln4eJWUg" id="(0.5416666666666666,0.03636363636363636)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RlgZh8SrEee8Yeln4eJWUg" id="(0.532258064516129,0.986046511627907)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_AueHQ8hWEeeeNNietdEZuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_AueHRMhWEeeeNNietdEZuQ" fontName=".SF NS Text" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AueHRchWEeeeNNietdEZuQ" points="[4, 0, 239, -72]$[4, 77, 239, 5]$[-235, 77, 0, 5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AufVYMhWEeeeNNietdEZuQ" id="(0.2631578947368421,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AufVYchWEeeeNNietdEZuQ" id="(1.0,0.7901785714285714)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -342,7 +342,7 @@
         </ownedElements>
       </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_LbJwEMSrEee8Yeln4eJWUg" name="web: OCServicePod" incomingEdges="_RlQh4MSrEee8Yeln4eJWUg">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_LbJwEMSrEee8Yeln4eJWUg" name="web: OCServicePod" outgoingEdges="_AtsrMMhWEeeeNNietdEZuQ">
       <target xmi:type="openshift:Ocservicepod" href="smile-apps.openshift#//@resources.1"/>
       <semanticElements xmi:type="openshift:Ocservicepod" href="smile-apps.openshift#//@resources.1"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -433,7 +433,7 @@
         </ownedElements>
       </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_NXDcEMSrEee8Yeln4eJWUg" name="nginx: OCContainer" outgoingEdges="_RlMQcMSrEee8Yeln4eJWUg">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_NXDcEMSrEee8Yeln4eJWUg" name="nginx: OCContainer" incomingEdges="_AtugYMhWEeeeNNietdEZuQ">
       <target xmi:type="openshift:Occontainer" href="smile-apps.openshift#//@resources.2"/>
       <semanticElements xmi:type="openshift:Occontainer" href="smile-apps.openshift#//@resources.2"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -533,65 +533,65 @@
         </ownedElements>
       </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_RklzgMSrEee8Yeln4eJWUg" name=": OCServicePodToContainer" outgoingEdges="_RlQh4MSrEee8Yeln4eJWUg" incomingEdges="_RlMQcMSrEee8Yeln4eJWUg">
-      <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
-      <semanticElements xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_AtkvYMhWEeeeNNietdEZuQ" name=": OCServicePodToContainer" outgoingEdges="_AtugYMhWEeeeNNietdEZuQ" incomingEdges="_AtsrMMhWEeeeNNietdEZuQ">
+      <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
+      <semanticElements xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RkqE8MSrEee8Yeln4eJWUg" labelSize="10" borderSize="1" borderSizeComputationExpression="1">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Atl9gMhWEeeeNNietdEZuQ" labelSize="10" borderSize="1" borderSizeComputationExpression="1">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Rku9cMSrEee8Yeln4eJWUg" name="http://occiware.org/openshift#ocservicepodtocontainer">
-        <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
-        <semanticElements xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RkzO4MSrEee8Yeln4eJWUg" borderSize="1" borderSizeComputationExpression="1">
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_AtnLoMhWEeeeNNietdEZuQ" name="http://occiware.org/openshift#ocservicepodtocontainer">
+        <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
+        <semanticElements xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_AtnysMhWEeeeNNietdEZuQ" borderSize="1" borderSizeComputationExpression="1">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']/@subContainerMappings[name='SubOCServicePodToContainerContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']/@subContainerMappings[name='SubOCServicePodToContainerContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Rk4HYMSrEee8Yeln4eJWUg" name="id = urn:uuid:27e52b85-c544-4fc9-895a-28284131d432">
-          <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
-          <semanticElements xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
-          <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_Rk9m8MSrEee8Yeln4eJWUg"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_Rk8_4MSrEee8Yeln4eJWUg" labelSize="10" labelAlignment="LEFT" hideLabelByDefault="true" color="255,255,255">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_AtoZwMhWEeeeNNietdEZuQ" name="id = urn:uuid:27e52b85-c544-4fc9-895a-28284131d432">
+          <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
+          <semanticElements xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
+          <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_AtqO8MhWEeeeNNietdEZuQ"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_AtpA0MhWEeeeNNietdEZuQ" labelSize="10" labelAlignment="LEFT" hideLabelByDefault="true" color="255,255,255">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']/@subContainerMappings[name='SubOCServicePodToContainerContainer']/@subNodeMappings[name='OCServicePodToContainerId']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']/@subContainerMappings[name='SubOCServicePodToContainerContainer']/@subNodeMappings[name='OCServicePodToContainerId']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Rk9m8cSrEee8Yeln4eJWUg" name="title = null">
-          <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
-          <semanticElements xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
-          <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_RlCfcMSrEee8Yeln4eJWUg"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_RlB4YMSrEee8Yeln4eJWUg" labelSize="10" labelAlignment="LEFT" hideLabelByDefault="true" color="255,255,255">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_AtqO8chWEeeeNNietdEZuQ" name="title = null">
+          <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
+          <semanticElements xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
+          <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_AtrdEMhWEeeeNNietdEZuQ"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Atq2AMhWEeeeNNietdEZuQ" labelSize="10" labelAlignment="LEFT" hideLabelByDefault="true" color="255,255,255">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']/@subContainerMappings[name='SubOCServicePodToContainerContainer']/@subNodeMappings[name='OCServicePodToContainerTitle']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']/@subContainerMappings[name='SubOCServicePodToContainerContainer']/@subNodeMappings[name='OCServicePodToContainerTitle']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_RlCfccSrEee8Yeln4eJWUg" name="location = null">
-          <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
-          <semanticElements xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
-          <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_RlHX8cSrEee8Yeln4eJWUg"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_RlHX8MSrEee8Yeln4eJWUg" labelSize="10" labelAlignment="LEFT" hideLabelByDefault="true" color="255,255,255">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_AtrdEchWEeeeNNietdEZuQ" name="location = null">
+          <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
+          <semanticElements xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
+          <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_AtsEIchWEeeeNNietdEZuQ"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_AtsEIMhWEeeeNNietdEZuQ" labelSize="10" labelAlignment="LEFT" hideLabelByDefault="true" color="255,255,255">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']/@subContainerMappings[name='SubOCServicePodToContainerContainer']/@subNodeMappings[name='OCServicePodToContainerLocation']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='OCServicePodToContainerContainer']/@subContainerMappings[name='SubOCServicePodToContainerContainer']/@subNodeMappings[name='OCServicePodToContainerLocation']"/>
         </ownedElements>
       </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_RlMQcMSrEee8Yeln4eJWUg" sourceNode="_NXDcEMSrEee8Yeln4eJWUg" targetNode="_RklzgMSrEee8Yeln4eJWUg">
-      <target xmi:type="openshift:Occontainer" href="smile-apps.openshift#//@resources.2"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_RlP60MSrEee8Yeln4eJWUg" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@edgeMappings[name='OCContainerLinksEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_RlP60cSrEee8Yeln4eJWUg"/>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AtsrMMhWEeeeNNietdEZuQ" sourceNode="_LbJwEMSrEee8Yeln4eJWUg" targetNode="_AtkvYMhWEeeeNNietdEZuQ">
+      <target xmi:type="openshift:Ocservicepod" href="smile-apps.openshift#//@resources.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AttSQMhWEeeeNNietdEZuQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@edgeMappings[name='OCServicePodLinksEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AttSQchWEeeeNNietdEZuQ"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@edgeMappings[name='OCContainerLinksEdge']"/>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@edgeMappings[name='OCServicePodLinksEdge']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_RlQh4MSrEee8Yeln4eJWUg" sourceNode="_RklzgMSrEee8Yeln4eJWUg" targetNode="_LbJwEMSrEee8Yeln4eJWUg">
-      <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.2/@links.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_RlQh4cSrEee8Yeln4eJWUg" size="2">
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_AtugYMhWEeeeNNietdEZuQ" sourceNode="_AtkvYMhWEeeeNNietdEZuQ" targetNode="_NXDcEMSrEee8Yeln4eJWUg">
+      <target xmi:type="openshift:Ocservicepodtocontainer" href="smile-apps.openshift#//@resources.1/@links.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_AtugYchWEeeeNNietdEZuQ" size="2">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@edgeMappings[name='OCServicePodToContainerTargetEdge']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_RlQh4sSrEee8Yeln4eJWUg"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_AtugYshWEeeeNNietdEZuQ"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.cmf.occi.openshift.design/description/openshift.odesign#//@ownedViewpoints[name='OpenshiftConfiguration']/@ownedRepresentations[name='OpenshiftConfiguration%20Diagram']/@defaultLayer/@edgeMappings[name='OCServicePodToContainerTargetEdge']"/>
     </ownedDiagramElements>
